@@ -27,10 +27,13 @@ body{background-color: black}
 padding: 30px;
 }
 .Entries{
-display: inline;
+display: inline; padding-left: 50px
 }
 p{color: white}
 p{font-family: verdana, sans-serif}
+li.ComicText{
+  color: white; font-family: verdana; padding-left: 120px; font-weight: bold;
+}
 .footer{
 			background: black; font-family: verdana; padding-right: 15px;padding-left: 15px;
 		}
@@ -143,4 +146,3 @@ footer{
         padding: 8px;
         margin: 4px;
     }
-}
