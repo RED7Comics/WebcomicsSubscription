@@ -1,10 +1,24 @@
 body{background-color: black}
+a {
+  text-decoration: none;
+  color: white;
+}
+  a:hover{
+    color: #b83e44;
+    transition: 1s;
+  }
+.RED7icon{
+  text-align: center;
+}
 .navbar{
 			background: black; font-family: verdana; padding-right: 15px;padding-left: 15px; padding-top: 15px; padding-bottom: 15px;
 		}
 		.navdiv{
-			display: flex; align-items: center; justify-content: space-between;
+			display: inline-flex; text-align: center; justify-content: space-between; padding: 10px;
 		}
+.navdiv-item{
+  padding: 20px;
+}
 		.logo a{
 			font-size: 35px; font-weight: 600; color: white;
 		}
@@ -14,15 +28,18 @@ body{background-color: black}
 		li a{
 			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
 		}
+.spotlight{
+  font-size: 35px; margin-right: 500px; margin-top: 100px; font-weight: bold; margin-left: 200px; display: block;
+}
+.releases{
+  font-size: 35px; margin-right: 500px; margin-top: 0px; font-weight: bold;
+}
 		button{
 			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
 		}
 		button a{
 			color: white; font-weight: bold; font-size: 15px;
 		}
-.BlueHazeCover a{
-  margin: 300px;
-}
 .LatestReleases{
 padding: 30px;
 }
@@ -31,8 +48,14 @@ display: inline; padding-left: 50px
 }
 p{color: white}
 p{font-family: verdana, sans-serif}
-li.ComicText{
-  color: white; font-family: verdana; padding-left: 120px; font-weight: bold;
+li.BlueHazeComicText{
+  color: white; font-family: verdana; margin: 5px; font-weight: bold; padding-left: 90px;
+}
+li.TomahawkComicText{
+  color: white; font-family: verdana; margin: 5px; font-weight: bold; padding-left: 60px;
+}
+li.SeraphQueenComicText{
+  color: white; font-family: verdana; margin: 5px; font-weight: bold; padding-left: 30px;
 }
 .footer{
 			background: black; font-family: verdana; padding-right: 15px;padding-left: 15px;
@@ -50,16 +73,16 @@ li.ComicText{
 			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
 		}
 		button{
-			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+			background-color: #b83e44; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px; border-color: white;
 		}
 		button a{
 			color: white; font-weight: bold; font-size: 15px;
 		}
 .AppLogo a{
-  font-size: 35px; font-weight: 600; color: white;
+  font-size: 35px; margin-right: 200px; padding-top: 0px; font-weight: bold;
 }
 .AppButton{
-  margin-right: 150px; width: 130px; height: 110px; background-color: white;
+  margin-right: 360px; width: 130px; height: 110px; background-color: white; padding-top: 20px;
 }
 *{
     padding: 0;
