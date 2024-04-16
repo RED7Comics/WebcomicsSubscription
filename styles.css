@@ -46,8 +46,7 @@ padding: 30px;
 .Entries{
 display: inline; padding-left: 50px
 }
-p{color: white}
-p{font-family: verdana, sans-serif}
+p{color: white; padding-left: 50px; padding-left: 50px; font-family: verdana, sans-serif;}
 li.BlueHazeComicText{
   color: white; font-family: verdana; margin: 5px; font-weight: bold; padding-left: 90px;
 }
